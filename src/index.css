@@ -1,0 +1,90 @@
+body {
+  background-color: palevioletred;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.App{
+background: white;
+width: 400px;
+margin: 90px auto;
+height: 100vh;
+}
+.head{
+  margin-top: 0;
+}
+
+.page{
+  width: 400px;
+  height: 40px;
+  margin: 60px auto ;
+  display: flex; 
+  margin-left: 50px;
+}
+.page > h5{
+ /* margin: 50px; */
+ margin-top: 0;
+ 
+}
+.page>p{
+  margin: 00px;
+ margin-top: 0;
+}
+.page-data{
+width: 200px;
+margin: 80px;
+}
+.info{
+  font-size: 20px;
+  margin-top: 0;
+  margin-left: 25px;
+  margin-bottom: 0;
+}
+.info> h5{
+  letter-spacing: 0.10rem;
+  
+  margin-top: 8px;
+  margin-bottom: 3px;
+}
+.info> p{
+  margin-top: 0;
+  font-size: 15px;
+}
+.clearAll{
+  box-sizing: border-box;
+  background-color: rgb(255, 154, 188) ;
+  border: none;
+  height: 80px;
+  margin-left: 10px  ;
+  width: 380px;
+  border-radius: 10px;
+  font-size: 30px;
+  color: white;
+}
+
+.image{
+  width: 75px;
+  height: 75px;
+ border-radius: 50%;
+ border-radius: 20px;
+ object-fit: cover;
+}
+.head{
+  text-align: center;
+  margin-bottom: 0;
+
+}
+
+.single-button{
+  box-sizing: border-box;
+  background-color: rgb(255, 154, 188) ;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+  margin-left: 20px;
+  width: 80px;
+}
